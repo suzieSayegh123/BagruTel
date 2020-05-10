@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activities.GroupCreateActivity">
+
+
+    <!--profile picture-->
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pivCV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="250dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/colorBlack">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/groupIconIv"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_group_primary"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--Edit Text : group title-->
+    <EditText
+        android:id="@+id/groupTitleEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/pivCV"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/group_title"/>
+
+    <!--Edit text: group description-->
+    <EditText
+        android:id="@+id/groupDescriptionEt"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/groupTitleEt"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/group_description"/>
+
+    <!--FAB : create group-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateGroupBtn"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_done_white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

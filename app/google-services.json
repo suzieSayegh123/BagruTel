@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "851247940583",
+    "firebase_url": "https://learningapp-717a9.firebaseio.com",
+    "project_id": "learningapp-717a9",
+    "storage_bucket": "learningapp-717a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851247940583:android:d6ca3dfb793b311163b342",
+        "android_client_info": {
+          "package_name": "com.bagrutTel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851247940583-kchio7facpe4ei4767pifavp9adov3lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learningapp",
+            "certificate_hash": "26d902276796382ee9d407c95fb45753dd639ea8"
+          }
+        },
+        {
+          "client_id": "851247940583-rvtb9ltpi57396c8h0dhm39ojqofla31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyx4H1Xygd-RU5_GOsn1xGPLI0szQj3VM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851247940583-rvtb9ltpi57396c8h0dhm39ojqofla31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
